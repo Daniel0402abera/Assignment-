@@ -2,9 +2,19 @@
  * {
   box-sizing: border-box;
 }
+p {
+    text-align: justify-all;
+    padding-left: 10px;
 
 
-#box1 {
+
+}
+h1{
+
+  text-align: center;
+}
+
+#box1  {
     
     background-color:gray;
     float: left;
@@ -25,7 +35,7 @@
    }
 
    
-    #box3 {
+    #box3  {
     
     background-color:gray;
     float: left;
@@ -39,12 +49,28 @@
 
  
 section {
- background-color: #E9967A;
+ 
  position: relative; 
  margin-top: 0px;
  float: right; 
+ font-size: 18px;
 
+ 
 }
+
+#S1 {
+  background-color: #E9967A;
+}
+
+#S2 {
+  background-color: #00FF00;
+}
+#S3 {
+  background-color: #FF0000;
+}
+
+
+
 
 @media (min-width: 992px){
 
@@ -79,7 +105,7 @@ section {
 }
 #box3{
 
-	width: 100%
+	width: 98%
 }
 
 }
